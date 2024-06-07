@@ -12,8 +12,8 @@ function App() {
     <>
       <Banner/>
       <Projects/>
-      <Skills/>
       <About/>
+      <Skills/>
       <Contact/>
       <div className="fixed bottom-5 right-5 z-50">
         <SocialBar/>
