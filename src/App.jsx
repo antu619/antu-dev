@@ -1,23 +1,23 @@
 import About from "./components/About"
 import Banner from "./components/Banner"
 import Contact from "./components/Contact"
-import Footer from "./components/Footer"
-import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
+import SocialBar from "./components/SocialBar"
 
 
 function App() {
 
   return (
     <>
-      <Navbar/>
       <Banner/>
       <Projects/>
       <Skills/>
       <About/>
       <Contact/>
-      <Footer/>
+      <div className="fixed bottom-5 right-5 z-50">
+        <SocialBar/>
+      </div>
     </>
   )
 }

@@ -10,9 +10,9 @@ const Banner = () => {
             </div>
             {/* Banner Content */}
             <div className='p-5 lg:p-0'>
-            <h3 className='text-base-content text-xl lg:text-4xl font-semibold w-full'>Hi! I'm Antu.
+            <h3 className='text-base-content text-xl md:text-2xl lg:text-4xl font-semibold w-full'>Hi! I'm Antu.
                 </h3>
-                <h1 className='text-yellow-700 text-3xl md:text-6xl lg:text-6xl font-bold lg:mt-3'>
+                <h1 className='text-yellow-700 text-3xl md:text-5xl lg:text-6xl font-bold lg:mt-3'>
                 <Typewriter
                         options={{
                             strings: ['MERN Developer.', 'Full-Stack Developer.'],
