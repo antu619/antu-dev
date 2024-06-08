@@ -24,7 +24,7 @@ const Contact = () => {
       };
     return (
         <div className='py-10 max-w-7xl mx-auto p-5'>
-            <h3 className='text-3xl my-10 ml-4'>My Technical Skills</h3>
+            <h3 className='text-3xl my-10 ml-4'>Contact Me</h3>
             <div className="hero">
       <div className="hero-content lg:gap-20 flex-col lg:flex-row">
         <div>
