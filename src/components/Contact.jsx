@@ -1,6 +1,7 @@
 import emailjs from '@emailjs/browser';
 import toast from "react-hot-toast";
 import contact from "../assets/contact.png";
+// import { Element } from 'react-scroll';
 
 
 const Contact = () => {
@@ -23,9 +24,9 @@ const Contact = () => {
           });
       };
     return (
-        <div className='py-10 max-w-7xl mx-auto p-5'>
-            <h3 className='text-3xl my-10 ml-4'>Contact Me</h3>
-            <div className="hero">
+        <div>
+          <div className='pt-20 max-w-7xl mx-auto p-5'>
+            <h3 className='text-3xl mb-10 ml-4'>Contact Me</h3>
       <div className="hero-content lg:gap-20 flex-col lg:flex-row">
         <div>
           <img

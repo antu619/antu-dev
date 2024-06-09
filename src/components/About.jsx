@@ -1,10 +1,12 @@
 import { HiArrowDownTray } from "react-icons/hi2";
 import antu from "../assets/antud19.png";
+import resumePdf from '../assets/antu-d-portfolio.pdf';
 
 
 const About = () => {
     return (
-        <div className="py-10 max-w-7xl mx-auto p-5">
+        <div>
+            <div className="pt-20 max-w-7xl mx-auto p-5">
             <h2 className="text-3xl mb-20">About Me</h2>
             <div className="hero">
             <div className="hero-content gap-10 lg:gap-40 flex-col lg:flex-row-reverse p-0">
@@ -21,10 +23,11 @@ const About = () => {
                 Driven by a constant desire to learn and grow, I enjoy tackling new challenges that push the boundaries of my knowledge, enabling me to deliver dynamic and scalable solutions within the MERN Stack ecosystem.
                 </p>
                </div>
-               <a to=''  className="btn mt-6 text-white">Download CV <HiArrowDownTray className='ml-2' /></a>
+               <a  href={resumePdf} download='computer'  className="btn mt-6 uppercase bg-[#1D4786] hover:bg-[#1D4786] text-white">Download CV <HiArrowDownTray className='ml-2' /></a>
                 </div>
             </div>
             </div>
+        </div>
         </div>
     );
 };

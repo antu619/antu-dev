@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Main from "./layout/Main.jsx";
 import { Toaster } from "react-hot-toast";
 import ProjectDetails from "./ProjectDetails/ProjectDetails.jsx";
+import ProjectLayout from "./layout/ProjectLayout.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,13 +17,21 @@ const router = createBrowserRouter([
         path: "/",
         element: <App />,
       },
-      {
-        path: "/project/:id",
-        element: <ProjectDetails />,
-        loader: () => fetch('/projects.json')
-      },
+      
     ],
-  },
+    },
+      {
+        path: '/project-details',
+        element: <ProjectLayout />,
+        children: [
+          {
+            path: "/project-details/:id",
+            element: <ProjectDetails />,
+            loader: () => fetch('/projects.json')
+          },
+          
+        ]
+      }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -11,7 +11,7 @@ const Card = ({ project }) => {
         <h2 className="card-title">{title}</h2>
         <p>{description?.slice(0, 300)}...</p>
         <div className="card-actions justify-end">
-          <Link to={`/project/${id}`} className="btn text-white">
+          <Link to={`/project-details/${id}`} className="btn text-white uppercase">
             View Details
           </Link>
         </div>

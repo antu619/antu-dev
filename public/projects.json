@@ -15,12 +15,12 @@
             "/src/assets//traveLLer-10.png"
             
             ],
-        "image2": "",
-        "image3": "",
-        "image4": "",
-        "image5": "",
-        "description": "",
-        "contact": "For more details, you can contact me at antu.das.619@gmail.com or +8801885720409."
+        "description": "traveLLer is an immersive travel blogging platform crafted with cutting-edge technologies like the MERN stack, Tailwind CSS, Daisy UI, and Firebase Authentication. Our platform offers a seamless experience for travel enthusiasts, featuring a dynamic homepage showcasing diverse travel experiences, a comprehensive posts page with advanced search functionality, and dedicated sections for About, Contact, and Blogs. With a user-friendly dashboard accessible upon registration or login, users can personalize their profiles, manage their posts, and engage in various activities effortlessly. Leveraging React Router DOM and Firebase Authentication, traveLLer ensures secure access to user data and activities. Whether it's updating profile information, browsing authored posts, or creating new content, traveLLer provides intuitive tools and features to enhance the travel blogging experience. For installation, simply follow these steps: Clone the repository, navigate to the project directory, install dependencies using npm install, set up Firebase for authentication, set up MongoDB for database operations, and run the frontend and backend servers using npm run dev.",
+        "email": "antu.das.619@gmail.com",
+        "number": "+8801885720409.",
+        "clientRepo": "https://github.com/antu619/traveller-client",
+        "serverRepo": "https://github.com/antu619/traveller-server",
+        "live": "https://traveller-4e41f.web.app/"
     },
     {
         "id": "2",
@@ -35,12 +35,12 @@
             "/src/assets/tasty-recipes-7.png",
             "/src/assets/tasty-recipes-8.png"
             ],
-        "image2": "",
-        "image3": "",
-        "image4": "",
-        "image5": "",
-        "description": "",
-        "contact": "For more details, you can contact me at antu.das.619@gmail.com or +8801885720409."
+        "description": "'Tasty Recipes' serves up a delectable blend of culinary exploration and digital prowess, marrying React.js with Firebase to create an enticing platform for gastronomic enthusiasts. Embark on a journey through a world of flavors, where each dish is a testament to the artistry of cooking and the power of technology. This project boasts a robust authentication system, allowing users to login seamlessly via email/password, Google, or GitHub credentials. Once inside, protected routes ensure that only authenticated users can feast upon the array of recipes, safeguarding culinary secrets. The dynamic homepage beckons with tantalizing food categories and a succulent seafood section, all meticulously crafted to entice and inspire. Dive into the dashboard panel, where logged-in users can not only manage their information but also indulge in the joy of culinary creation through seamless CRUD operations. With React.js at its core, Firebase handling authentication and data management, and a touch of Tailwind CSS for styling finesse, 'Tasty Recipes' offers a delectable experience for both foodies and tech enthusiasts alike. Ready to embark on your culinary adventure? Simply clone the repository, navigate to the project directory, install dependencies with npm install, configure Firebase for authentication, and launch the servers with npm run dev. Bon appétit!",
+        "email": "antu.das.619@gmail.com",
+        "number": "+8801885720409.",
+        "clientRepo": "https://github.com/antu619/tasty-recipes",
+        "serverRepo": "https://github.com/antu619/tasty-recipes-server",
+        "live": "https://tasty-recipes-b8ce6.web.app/"
     },
     {
         "id": "3",
@@ -51,7 +51,11 @@
             "/src/assets/land-times-3.png"
             
             ],
-        "description": "The Land Times is an authentication-based project developed using React.js and Firebase Authentication, designed to provide a secure and dynamic user experience. This project features a robust login system, protected routes to safeguard content, and dynamic user interface elements that enhance usability and engagement.One of the core features of The Land Times is its authentication system, which supports login via email/password, Google, and GitHub. Once authenticated, users gain access to protected routes, ensuring that sensitive news details are only available to logged-in users. The application also displays the user's profile image in the navbar upon login, adding a personalized touch. Additionally, an auto-redirect feature ensures that users are taken directly to their intended page after logging in, streamlining the user experience.The Land Times utilizes React Router DOM for efficient route management within the application. Styling is handled with Tailwind CSS and Daisy UI components, providing a modern and responsive design. Moment.js is integrated to display the current time within the application, and React-Fast-Marquee adds a dynamic marquee effect for text or images, enhancing the visual appeal.The project leverages several key technologies: React.js for building user interfaces, Firebase Authentication for secure user management, React Router DOM for routing, Tailwind CSS and Daisy UI for styling, Moment.js for date manipulation, and React-Fast-Marquee for marquee effects.To set up the project, clone the repository, navigate to the project directory, install dependencies using npm install, set up Firebase for authentication, and run the project using npm run dev.For more details or to view the live project, you can contact me at antu.das.619@gmail.com.",
-        "contact": "For more details, you can contact me at antu.das.619@gmail.com or +8801885720409."
+        "description": "The Land Times is an authentication-based project developed using React.js and Firebase Authentication, designed to provide a secure and dynamic user experience. This project features a robust login system, protected routes to safeguard content, and dynamic user interface elements that enhance usability and engagement.One of the core features of The Land Times is its authentication system, which supports login via email/password, Google, and GitHub. Once authenticated, users gain access to protected routes, ensuring that sensitive news details are only available to logged-in users. The application also displays the user's profile image in the navbar upon login, adding a personalized touch. Additionally, an auto-redirect feature ensures that users are taken directly to their intended page after logging in, streamlining the user experience.The Land Times utilizes React Router DOM for efficient route management within the application. Styling is handled with Tailwind CSS and Daisy UI components, providing a modern and responsive design. Moment.js is integrated to display the current time within the application, and React-Fast-Marquee adds a dynamic marquee effect for text or images, enhancing the visual appeal.The project leverages several key technologies: React.js for building user interfaces, Firebase Authentication for secure user management, React Router DOM for routing, Tailwind CSS and Daisy UI for styling, Moment.js for date manipulation, and React-Fast-Marquee for marquee effects.To set up the project, clone the repository, navigate to the project directory, install dependencies using npm install, set up Firebase for authentication, and run the project using npm run dev.",
+        "email": "antu.das.619@gmail.com",
+        "number": "+8801885720409.",
+        "clientRepo": "https://github.com/antu619/land-times",
+        "serverRepo": "",
+        "live": "https://land-times.web.app/"
     }
 ]
