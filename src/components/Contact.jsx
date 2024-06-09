@@ -24,10 +24,9 @@ const Contact = () => {
           });
       };
     return (
-        <div>
-          <div className='pt-20 max-w-7xl mx-auto p-5'>
+          <div className='pt-20 max-w-7xl mx-auto'>
             <h3 className='text-3xl mb-10 ml-4'>Contact Me</h3>
-      <div className="hero-content lg:gap-20 flex-col lg:flex-row">
+      <div className="hero-content lg:gap-20 flex-col lg:flex-row p-5">
         <div>
           <img
             className="lg:max-w-xl"
@@ -63,7 +62,6 @@ const Contact = () => {
     </form>
             </div>
            </div>
-        </div>
         </div>
     );
 };
