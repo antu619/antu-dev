@@ -3,16 +3,16 @@
         "id": "1",
         "title": "traveLLer",
         "images": [
-            "/src/assets//traveLLer-1.png",
-            "/src/assets//traveLLer-2.png",
-            "/src/assets//traveLLer-3.png",
-            "/src/assets//traveLLer-4.png",
-            "/src/assets//traveLLer-5.png",
-            "/src/assets//traveLLer-6.png",
-            "/src/assets//traveLLer-7.png",
-            "/src/assets//traveLLer-8.png",
-            "/src/assets//traveLLer-9.png",
-            "/src/assets//traveLLer-10.png"
+            "https://i.ibb.co/sWvh0hw/traveLLer-1.png",
+            "https://i.ibb.co/HB76QBj/traveLLer-2.png",
+            "https://i.ibb.co/JmyKbWF/traveLLer-3.png",
+            "https://i.ibb.co/VM4pZ8f/traveLLer-4.png",
+            "https://i.ibb.co/h2gHCcY/traveLLer-5.png",
+            "https://i.ibb.co/c3z2VYr/traveLLer-6.png",
+            "https://i.ibb.co/m664DFs/traveLLer-7.png",
+            "https://i.ibb.co/BVWNCmd/traveLLer-8.png",
+            "https://i.ibb.co/6nGVMRZ/traveLLer-9.png",
+            "https://i.ibb.co/M8Z4CNL/traveLLer-10.png"
             
             ],
         "description": "traveLLer is an immersive travel blogging platform crafted with cutting-edge technologies like the MERN stack, Tailwind CSS, Daisy UI, and Firebase Authentication. Our platform offers a seamless experience for travel enthusiasts, featuring a dynamic homepage showcasing diverse travel experiences, a comprehensive posts page with advanced search functionality, and dedicated sections for About, Contact, and Blogs. With a user-friendly dashboard accessible upon registration or login, users can personalize their profiles, manage their posts, and engage in various activities effortlessly. Leveraging React Router DOM and Firebase Authentication, traveLLer ensures secure access to user data and activities. Whether it's updating profile information, browsing authored posts, or creating new content, traveLLer provides intuitive tools and features to enhance the travel blogging experience. For installation, simply follow these steps: Clone the repository, navigate to the project directory, install dependencies using npm install, set up Firebase for authentication, set up MongoDB for database operations, and run the frontend and backend servers using npm run dev.",
@@ -26,14 +26,14 @@
         "id": "2",
         "title": "Tasty Recipes",
         "images": [
-            "/src/assets/tasty-recipes-1.png",
-            "/src/assets/tasty-recipes-2.png",
-            "/src/assets/tasty-recipes-3.png",
-            "/src/assets/tasty-recipes-4.png",
-            "/src/assets/tasty-recipes-5.png",
-            "/src/assets/tasty-recipes-6.png",
-            "/src/assets/tasty-recipes-7.png",
-            "/src/assets/tasty-recipes-8.png"
+            "https://i.ibb.co/5WwCRcd/tasty-recipes-1.png",
+            "https://i.ibb.co/frJPNJt/tasty-recipes-2.png",
+            "https://i.ibb.co/qNH8kTf/tasty-recipes-3.png",
+            "https://i.ibb.co/m6q3D1k/tasty-recipes-4.png",
+            "https://i.ibb.co/Nxpv62T/tasty-recipes-5.png",
+            "https://i.ibb.co/n64WM82/tasty-recipes-6.png",
+            "https://i.ibb.co/y5ZJsKY/tasty-recipes-7.png",
+            "https://i.ibb.co/M8B69SR/tasty-recipes-8.png"
             ],
         "description": "'Tasty Recipes' serves up a delectable blend of culinary exploration and digital prowess, marrying React.js with Firebase to create an enticing platform for gastronomic enthusiasts. Embark on a journey through a world of flavors, where each dish is a testament to the artistry of cooking and the power of technology. This project boasts a robust authentication system, allowing users to login seamlessly via email/password, Google, or GitHub credentials. Once inside, protected routes ensure that only authenticated users can feast upon the array of recipes, safeguarding culinary secrets. The dynamic homepage beckons with tantalizing food categories and a succulent seafood section, all meticulously crafted to entice and inspire. Dive into the dashboard panel, where logged-in users can not only manage their information but also indulge in the joy of culinary creation through seamless CRUD operations. With React.js at its core, Firebase handling authentication and data management, and a touch of Tailwind CSS for styling finesse, 'Tasty Recipes' offers a delectable experience for both foodies and tech enthusiasts alike. Ready to embark on your culinary adventure? Simply clone the repository, navigate to the project directory, install dependencies with npm install, configure Firebase for authentication, and launch the servers with npm run dev. Bon appétit!",
         "email": "antu.das.619@gmail.com",
@@ -46,9 +46,10 @@
         "id": "3",
         "title": "The Land Times",
         "images": [
-            "/src/assets/land-times-1.png",
-            "/src/assets/land-times-2.png",
-            "/src/assets/land-times-3.png"
+            "https://i.ibb.co/fk5qMQX/land-times-1.png",
+            "https://i.ibb.co/7brrC0B/land-times-2.png",
+            "https://i.ibb.co/H2bCNJH/land-times-5.png",
+            "https://i.ibb.co/NNFbFsq/land-times-3.png"
             
             ],
         "description": "The Land Times is an authentication-based project developed using React.js and Firebase Authentication, designed to provide a secure and dynamic user experience. This project features a robust login system, protected routes to safeguard content, and dynamic user interface elements that enhance usability and engagement.One of the core features of The Land Times is its authentication system, which supports login via email/password, Google, and GitHub. Once authenticated, users gain access to protected routes, ensuring that sensitive news details are only available to logged-in users. The application also displays the user's profile image in the navbar upon login, adding a personalized touch. Additionally, an auto-redirect feature ensures that users are taken directly to their intended page after logging in, streamlining the user experience.The Land Times utilizes React Router DOM for efficient route management within the application. Styling is handled with Tailwind CSS and Daisy UI components, providing a modern and responsive design. Moment.js is integrated to display the current time within the application, and React-Fast-Marquee adds a dynamic marquee effect for text or images, enhancing the visual appeal.The project leverages several key technologies: React.js for building user interfaces, Firebase Authentication for secure user management, React Router DOM for routing, Tailwind CSS and Daisy UI for styling, Moment.js for date manipulation, and React-Fast-Marquee for marquee effects.To set up the project, clone the repository, navigate to the project directory, install dependencies using npm install, set up Firebase for authentication, and run the project using npm run dev.",
