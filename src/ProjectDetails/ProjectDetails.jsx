@@ -2,6 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import Slider from "./Slider";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { useEffect } from "react";
 
 const ProjectDetails = () => {
     const {id} = useParams();
@@ -9,6 +10,10 @@ const ProjectDetails = () => {
     console.log(projects.find(project => project.id === id))
 
     const project = projects.find((project) => project.id === id);
+
+    useEffect(() => {
+      window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+    }, []);
 
     console.log(project.live)
     return (
