@@ -1,6 +1,27 @@
 [
     {
         "id": "1",
+        "title": "Theater Seat",
+        "images": [
+            "https://i.ibb.co/VvNBPsN/theater-seat-1.png",
+            "https://i.ibb.co/tqtFk5M/theater-seat-2.png",
+            "https://i.ibb.co/M6Qxt42/theater-seat-3.png",
+            "https://i.ibb.co/McQmmTL/theater-seat-4.png",
+            "https://i.ibb.co/v3WXRnk/theater-seat-5.png",
+            "https://i.ibb.co/zSkyG2t/theater-seat-6.png",
+            "https://i.ibb.co/CMjLyCJ/theater-seat-7.png",
+            "https://i.ibb.co/k9y9m30/theater-seat-8.png",
+            "https://i.ibb.co/09CnhdJ/theater-seat-9.png"
+            ],
+        "description": "Theater Seat is a comprehensive MERN stack web application designed for seamless theater ticket booking. Users can register, log in, and efficiently manage their bookings through an intuitive interface. The application leverages Firebase for robust authentication and Stripe for secure payment processing. Key features include user authentication with email/password or Google via Firebase, protected routes ensuring secure access to dashboard pages, and efficient event management allowing users to view, book, and manage tickets. Payment processing is streamlined through Stripe, while free tickets bypass the payment option. Administrators can view all users, and upload and update event details. Data is securely stored in MongoDB, encompassing users, events, bookings, and payment details. API routes are fortified with JWT tokens for enhanced security. The frontend is crafted with React.js, Tailwind CSS, and Daisy UI for a modern, responsive design, while the backend employs Node.js and Express.js. To get started, clone the repository, navigate to the project directory, install dependencies with npm install, configure Firebase, MongoDB, and Stripe, then run the client site and server using npm run dev. The payment system can be tested using the card number 4242424242424242, any 3 digits for CVC, a future date, and any 5-digit postal code. For a detailed experience, you can visit the live application.",
+        "email": "antu.das.619@gmail.com",
+        "number": "+8801885720409.",
+        "clientRepo": "https://github.com/antu619/theater-seat",
+        "serverRepo": "https://github.com/antu619/theater-seat-server",
+        "live": "https://theater-seat-9028b.web.app/"
+    },
+    {
+        "id": "2",
         "title": "traveLLer",
         "images": [
             "https://i.ibb.co/sWvh0hw/traveLLer-1.png",
@@ -23,7 +44,7 @@
         "live": "https://traveller-4e41f.web.app/"
     },
     {
-        "id": "2",
+        "id": "3",
         "title": "Tasty Recipes",
         "images": [
             "https://i.ibb.co/5WwCRcd/tasty-recipes-1.png",
@@ -41,22 +62,5 @@
         "clientRepo": "https://github.com/antu619/tasty-recipes",
         "serverRepo": "https://github.com/antu619/tasty-recipes-server",
         "live": "https://tasty-recipes-b8ce6.web.app/"
-    },
-    {
-        "id": "3",
-        "title": "The Land Times",
-        "images": [
-            "https://i.ibb.co/fk5qMQX/land-times-1.png",
-            "https://i.ibb.co/7brrC0B/land-times-2.png",
-            "https://i.ibb.co/H2bCNJH/land-times-5.png",
-            "https://i.ibb.co/NNFbFsq/land-times-3.png"
-            
-            ],
-        "description": "The Land Times is an authentication-based project developed using React.js and Firebase Authentication, designed to provide a secure and dynamic user experience. This project features a robust login system, protected routes to safeguard content, and dynamic user interface elements that enhance usability and engagement.One of the core features of The Land Times is its authentication system, which supports login via email/password, Google, and GitHub. Once authenticated, users gain access to protected routes, ensuring that sensitive news details are only available to logged-in users. The application also displays the user's profile image in the navbar upon login, adding a personalized touch. Additionally, an auto-redirect feature ensures that users are taken directly to their intended page after logging in, streamlining the user experience.The Land Times utilizes React Router DOM for efficient route management within the application. Styling is handled with Tailwind CSS and Daisy UI components, providing a modern and responsive design. Moment.js is integrated to display the current time within the application, and React-Fast-Marquee adds a dynamic marquee effect for text or images, enhancing the visual appeal.The project leverages several key technologies: React.js for building user interfaces, Firebase Authentication for secure user management, React Router DOM for routing, Tailwind CSS and Daisy UI for styling, Moment.js for date manipulation, and React-Fast-Marquee for marquee effects.To set up the project, clone the repository, navigate to the project directory, install dependencies using npm install, set up Firebase for authentication, and run the project using npm run dev.",
-        "email": "antu.das.619@gmail.com",
-        "number": "+8801885720409.",
-        "clientRepo": "https://github.com/antu619/land-times",
-        "serverRepo": "",
-        "live": "https://land-times.web.app/"
     }
 ]

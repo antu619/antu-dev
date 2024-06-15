@@ -1,6 +1,6 @@
 import { HiArrowDownTray } from "react-icons/hi2";
 import antu from "../assets/antud19.png";
-import resumePdf from '../assets/antu-d-portfolio.pdf';
+import resumePdf from '../assets/antu-d-mern-resume1.pdf';
 
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
                 Driven by a constant desire to learn and grow, I enjoy tackling new challenges that push the boundaries of my knowledge, enabling me to deliver dynamic and scalable solutions within the MERN Stack ecosystem.
                 </p>
                </div>
-               <a  href={resumePdf} download='computer'  className="btn mt-6 uppercase bg-[#1D4786] hover:bg-[#1D4786] text-white">Download CV <HiArrowDownTray className='ml-2' /></a>
+               <a  href={resumePdf} download='antu-dev-mern-resume'  className="btn mt-6 uppercase bg-[#1D4786] hover:bg-[#1D4786] text-white">Download CV <HiArrowDownTray className='ml-2' /></a>
                 </div>
             </div>
             </div>

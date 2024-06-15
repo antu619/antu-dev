@@ -1,6 +1,6 @@
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Link } from "react-scroll";
-import resumePdf from '../assets/antu-d-portfolio.pdf'
+import resumePdf from '../assets/antu-d-mern-resume1.pdf'
 
 const Navbar = () => {
 
@@ -35,7 +35,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href={resumePdf} download='computer' className="btn uppercase text-white">Resume <MdOutlineFileDownload className="text-xl" /></a>
+    <a href={resumePdf} download='antu-dev-mern-resume' className="btn uppercase text-white">Resume <MdOutlineFileDownload className="text-xl" /></a>
   </div>
   </div>
 </div>
