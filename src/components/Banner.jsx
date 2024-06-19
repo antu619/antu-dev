@@ -1,15 +1,24 @@
+/* eslint-disable react/no-unescaped-entities */
+// import { useEffect } from 'react';
 import banner from '../assets/antu-banner.png';
 import Typewriter from 'typewriter-effect';
+// import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Banner = () => {
+    // useEffect(() => {
+    //     AOS.init({
+    //       duration: 1200,
+    //     });
+    //   }, []);
     return (
         <div className='flex flex-col lg:flex-row items-center gap-5 lg:gap-20 max-w-7xl mx-auto my-5'>
             {/* Banner Image */}
             <div>
-                <img className='w-[586px]' src={banner} alt="Banner Image" />
+                <img className='w-[586px]' src={banner} alt="Banner Image" data-aos="fade-right" data-aos-duration="1200"/>
             </div>
             {/* Banner Content */}
-            <div className='p-5 lg:p-0'>
+            <div className='p-5 lg:p-0' data-aos="fade-left" data-aos-duration="1200">
             <h3 className='text-base-content text-xl md:text-2xl lg:text-4xl font-semibold w-full'>Hi! I'm Antu.
                 </h3>
                 <h1 className='text-yellow-700 text-3xl md:text-5xl lg:text-6xl font-bold lg:mt-3'>

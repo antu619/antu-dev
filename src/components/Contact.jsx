@@ -25,16 +25,16 @@ const Contact = () => {
       };
     return (
           <div className='pt-20 max-w-7xl mx-auto'>
-            <h3 className='text-3xl mb-10 ml-4'>Contact Me</h3>
+            <h3 className='text-3xl mb-10 ml-4' data-aos="fade-right" data-aos-duration="1200">Contact Me</h3>
       <div className="hero-content lg:gap-20 flex-col lg:flex-row p-5">
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1200">
           <img
             className="lg:max-w-xl"
             src={contact}
             alt="Login Image"
           />
         </div>
-        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100" data-aos="fade-down" data-aos-duration="1200">
             <form onSubmit={sendEmail} className="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-[#1D4786]">
       <div className="card-body">
         <div className="form-control">

@@ -8,7 +8,6 @@ import SocialBar from "./components/SocialBar"
 
 
 function App() {
-
   return (
     <>
           <Banner />
@@ -24,11 +23,11 @@ function App() {
         <Element name="contact">
           <Contact />
         </Element>
-      <div className="fixed bottom-5 right-5 z-50">
+        <div className="fixed bottom-5 right-5 z-50">
         <SocialBar/>
-      </div>
+        </div>
     </>
   )
 }
 
-export default App
+export default App;

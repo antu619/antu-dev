@@ -14,7 +14,7 @@ import Marquee from "react-fast-marquee";
 const Skills = () => {
     return (
         <div className='pt-20 max-w-7xl mx-auto'>
-            <h3 className='text-3xl mb-20 ml-4'>My Technical Skills</h3>
+            <h3 className='text-3xl mb-20 ml-4'data-aos="fade-right" data-aos-duration="1200">My Technical Skills</h3>
             <div className="p-5">
             <Marquee pauseOnHover>
             <div className='grid items-center justify-center bg-[#1D4786] w-28 p-2 ml-2 rounded-lg'>
